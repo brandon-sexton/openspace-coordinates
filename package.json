@@ -1,6 +1,6 @@
 {
   "name": "openspace-coordinates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "template package",
   "main": "index.js",
   "scripts": {
