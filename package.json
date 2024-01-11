@@ -1,27 +1,33 @@
 {
-  "name": "openspace-coordinates",
-  "version": "0.1.1",
-  "description": "template package",
+  "name": "otk-coordinate-transforms",
+  "version": "0.1.0",
+  "description": "Package used for various coordinate transformations in space mission analysis",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandon-sexton/openspace-coordinates.git"
+    "url": "git+https://github.com/brandon-sexton/otk-coordinate-transforms.git"
   },
   "keywords": [
     "javascript",
-    "npm",
-    "package",
-    "template"
+    "space",
+    "coordinates",
+    "coordinate",
+    "transform",
+    "transforms",
+    "transformations",
+    "reference",
+    "frame",
+    "frames"
   ],
   "author": "Brandon Sexton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandon-sexton/openspace-coordinates/issues"
+    "url": "https://github.com/brandon-sexton/otk-coordinate-transforms/issues"
   },
-  "homepage": "https://github.com/brandon-sexton/openspace-coordinates#readme",
+  "homepage": "https://github.com/brandon-sexton/otk-coordinate-transforms#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.23.7",
     "babel-jest": "^29.7.0",

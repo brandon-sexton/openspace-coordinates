@@ -41,7 +41,7 @@ export function getInertialFromFixed(epoch, position) {
  */
 export function getSphericalFromCartesian(position) {
   const r = position.magnitude();
-  const rightAscension = Math.atan2(position[1], position[0]);
+  let rightAscension = Math.atan2(position[1], position[0]);
   if (rightAscension < 0) {
     rightAscension += 2 * Math.PI;
   }
