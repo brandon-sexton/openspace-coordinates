@@ -1,4 +1,4 @@
-import {Vector} from 'vector-matrix-math';
+import {Vector} from 'otk-linear-algebra';
 import {
   getNutationMatrix,
   getPrecessionMatrix,

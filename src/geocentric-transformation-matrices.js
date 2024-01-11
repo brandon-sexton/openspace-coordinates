@@ -1,5 +1,5 @@
-import {degreesToRadians, dmsToDegrees} from 'unit-conversions-js';
-import {Matrix, Vector} from 'vector-matrix-math';
+import {degreesToRadians, dmsToDegrees} from 'otk-unit-conversions';
+import {Matrix, Vector} from 'otk-linear-algebra';
 
 const COEFF_A = degreesToRadians(dmsToDegrees(0, 0, 46.815));
 const COEFF_B = degreesToRadians(dmsToDegrees(0, 0, 0.00059));
