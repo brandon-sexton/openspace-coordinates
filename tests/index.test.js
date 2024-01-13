@@ -2,8 +2,8 @@ import {
   getFixedFromInertial,
   getInertialFromFixed,
 } from '../src/position-conversions';
-import {Epoch} from 'time-systems';
-import {Vector} from 'vector-matrix-math';
+import {Epoch} from 'otk-time-systems';
+import {Vector} from 'otk-linear-algebra';
 
 test('getFixedFromInertial', () => {
   const pos = new Vector(10000.0, 40000.0, -5000.0);
