@@ -3,6 +3,6 @@
     "^.+\\.js$": "babel-jest"
   },
   "transformIgnorePatterns": [
-    "node_modules/(?!(time-systems|unit-conversions-js|vector-matrix-math)/)"
+    "node_modules/(?!(otk-time-systems|otk-unit-conversions|otk-linear-algebra)/)"
   ]
 }
